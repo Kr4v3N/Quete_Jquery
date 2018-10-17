@@ -1,0 +1,83 @@
+body{
+    background-color: #212121;
+}
+
+h1 {
+    color: #DD2C00;
+    font-size: 2em;
+}
+/* Mise en page du conteneur du slider */
+#slider-content {
+    position: relative;
+    margin-top: 100px;
+    width: 100%;
+    padding: 10px 10px 0 10px;
+    background: #BDBDBD;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Mise en page du slider */
+#slider {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    min-width: 420px;
+    width: 100%;
+    border: 1px solid grey;
+    background-color: rgb(240,240,240);
+    -webkit-box-shadow: 3px 3px 3px grey;
+    box-shadow: 3px 3px 3px grey;
+    border-radius: 10px;
+}
+
+/* Mise en page du contenu du slider */
+.step {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 10px;
+    padding: 20px;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(255, 171, 145,0.3);
+    border-radius: 16px 16px 16px 16px;
+    -moz-border-radius: 16px 16px 16px 16px;
+    -webkit-border-radius: 16px 16px 16px 16px;
+    border: 0px solid #2e292e;
+    -webkit-box-shadow: 0 0 35px 4px rgba(54,54,53,0.83);
+    -moz-box-shadow: 0 0 35px 4px rgba(54,54,53,0.83);
+    box-shadow: 0 0 35px 4px rgba(54,54,53,0.83);
+}
+
+/* Mise en page des boutons du slider */
+.slide-arrow {
+    position: absolute;
+    top: 56%;
+    color: #424242;
+    font-size: 2em;
+}
+
+/* Changement de couleur des boutons au survol */
+.slide-arrow :hover {
+    color: #DD2C00;
+}
+
+/* Position bouton gauche */
+#left {
+    left: 20%;
+}
+
+/* Position bouton droit */
+#right {
+    right: 20%;
+}
